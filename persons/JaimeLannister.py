@@ -28,3 +28,4 @@ class JaimeLannister:
 
     def get_total_damage(self):
         return self.strength + self.weapon.damage
+

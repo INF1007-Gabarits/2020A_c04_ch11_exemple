@@ -11,5 +11,4 @@ class Bastard:
         return not self.is_predictable
 
     def __eq__(self, other):
-        if self.is_predictable == other.is_predictable:
-            return True
+        return self.is_predictable == other.is_predictable
